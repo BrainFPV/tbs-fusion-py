@@ -1,0 +1,22 @@
+[project]
+name = "tbs-fusion-py"
+version = "1.0.0"
+authors = [
+  { name="Martin Luessi", email="mluessi@gmail.com" },
+]
+description = "A Python package to control the TBS Fusion analog video receiver module over a serial connection."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "pyserial>=3.5",
+  "pycrc>=0.10.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: BSD-3-Clause",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/BrainFPV/tbs-fusion-py"
+Issues = "https://github.com/BrainFPV/tbs-fusion-py/issues"
